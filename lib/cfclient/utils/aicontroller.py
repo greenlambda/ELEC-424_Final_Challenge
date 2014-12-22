@@ -115,18 +115,18 @@ class AiController():
             'sensorfusion6.kp': 0.800000011921, 
             'sensorfusion6.ki': 0.00200000009499, 
             'imu_acc_lpf.factor': 32,
-            'altHold.kd': 0.01,
-            'altHold.ki': 0.4,
-            'altHold.kp': 10.0,
+            'altHold.kd': 2.0,
+            'altHold.ki': 0.1,
+            'altHold.kp': 0.5,
             'altHold.hoverKd': 0.00,
             'altHold.hoverKi': 0.04,
             'altHold.hoverKp': 2.0,
             'altHold.altEstKp1': 0.4,
             'altHold.altEstKp2': 1.2,
             'altHold.altEstKi': 0.0001,
-            'altHold.altHoverAlpha': 0.7,
             'altHold.altHoldTargOff': 0.0,
-            'altHold.altHoldErrMax': 5.0
+            'altHold.altHoldErrMax': 5.0,
+            'altHold.baseThrust': 30000
             }
 
         # Add a callback once the crazyflie is fully connected to update
