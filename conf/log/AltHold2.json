@@ -1,0 +1,12 @@
+{
+  "logconfig": {
+    "logblock": {
+      "variables": [
+        { "stored_as": "", "type": "TOC", "name": "acc.zwComp", "fetch_as": "float" },
+        { "stored_as": "", "type": "TOC", "name": "altHold.vSpeedComp", "fetch_as": "float" }
+      ], 
+      "name": "AltHold2", 
+      "period": 60
+    }
+  }
+}
